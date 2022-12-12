@@ -1,0 +1,223 @@
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  main {
+    width: auto;
+    margin: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  header li {
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  header nav {
+    width: 100%;
+  }
+
+  header li:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+  }
+  header ul {
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: 25px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  h2{
+    margin-left: 20px;
+  }
+  .marg 
+  {
+    margin-left: 20px;
+  }
+  .between h2
+  {
+    margin-left: 0px;
+  }
+
+  .formulaire {
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  .icone {
+    width: 15%;
+  }
+  .bouton button {
+    width: 45px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+  }
+  .mobiledisplaynone {
+    display: none;
+  }
+  .mobiledisplayblock {
+    display: block;
+  }
+
+  .filtre {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 96%;
+  }
+
+  .eco {
+    margin-right: 10px;
+  }
+
+  .ecofammobile {
+    display: flex;
+  }
+
+  .ani {
+    margin-top: 15px;
+  }
+  .rom {
+    margin-top: 15px;
+  }
+
+  .info {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .taillehebergements {
+    order: 1;
+    flex: none;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    
+  }
+
+  .taillepopulaires {
+    flex: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    width: 100%;
+  }
+  .between {
+    padding-top: 25px;
+  }
+ 
+
+  /* Hébergements à Marseille mob*/
+
+  .blocheb {
+    padding: 0px;
+   
+  }
+
+  .bloc1 {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 0px;
+    padding: 4%;
+  }
+  .bloc2 {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-top: 0px;
+    padding: 4%;
+  }
+  .hebpop {
+    flex-direction: column;
+  }
+  .fondhebergement {
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px #f2f2f2;
+  }
+  .descriptionhebergement {
+    height: 90px;
+    margin-right: 10px;
+  }
+  .afficher
+  {
+    margin-left: 20px;
+  }
+
+  /* Activités à Marseille mob */
+
+  .activitesmarseille {
+    margin-bottom: 10px;
+    
+  }
+
+  .blocphotoactivite {
+    flex-direction: column;
+    padding: 4%;
+    
+
+    height: auto;
+  }
+
+  .fondactivite {
+    width: 100%;
+  }
+  .fondactivitereste {
+    padding-top: 40px;
+  }
+  .blocphotoactivitereste {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    
+  }
+
+  .fondactivite .imageactivite1 {
+    height: 180px;
+  }
+
+  .fondactivitereste .imageactivite2 {
+    height: 180px;
+  }
+  .fondactivitereste .imageactivite3 {
+    height: 180px;
+  }
+  .fondactivite .imageactivite4 {
+    height: 180px;
+  }
+  .fondactivitereste .imageactivite5 {
+    height: 180px;
+  }
+  .fondactivitereste .imageactivite6 {
+    height: 180px;
+  }
+
+  /* footer mob */
+
+  .conteneurgris {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blocfooter {
+    padding-left: 30px;
+    height: 150px;
+  }
+}
